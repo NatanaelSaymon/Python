@@ -1,0 +1,6 @@
+# Fazendo o programa conta de 0 ate onde o usuario quiser pulando de 10 em 10.
+
+n = int(input('Até onde você quer que eu conte?'))
+for c in range(0, n+1, 10): # n+1 significa fazer o computador contar ate o numero que desejar.
+    print(c)
+print('FIM')

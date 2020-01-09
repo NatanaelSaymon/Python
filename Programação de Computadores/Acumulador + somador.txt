@@ -1,0 +1,26 @@
+ACUMULADOR (SOMADOR) = É uma variável que atua acumulando os valores a cada vez que o código é executado. 
+Por exemplo, poderíamos implementar um somador num caixa de supermercado, acumulando na variável total todas as compras. 
+Essa implementação é feita fazendo com que a variável total receba o seu próprio valor + o valor parcial de cada execução.
+
+Ex.: total:=total+valor1.
+
+CONTADOR = Os contadores acumulam seu próprio valor, acrescentando 1 a cada execução do programa. No mesmo exemplo anterior 
+o total_de_itens receberia seu próprio valor + 1 a cada item que passasse pelo caixa.
+
+Ex.: total_de_itens:=total_de_itens+1
+
+===================================================================
+
+Os exercícios a seguir estimulam sua capacidade de trabalhar com esses conceito:
+
+Exercício 1
+Desenvolva um programa para que um professor cadastre, a cada trimestre, a media do aluno e sua quantidade de faltas. 
+No final, o programa deve apresentar a media final e o total de faltas
+
+Exercício 2
+O Clube XV de Novembro precisa de um programa de controle do acesso ao estádio. Para isso, precisa cadastrar o nome do torcedor, 
+sua idade e quanto pagou de ingresso. A cada 10 usuário que entram no estádio, o programa deve limpar a tela e apresentar o seguinte texto:
+
+‘O TOTAL DE TORCEDORES É = x torcedores’
+‘ O TOTAL DE R$ ARRECADADO É= x reais ‘
+‘ A MÉDIA DE IDADE DOS TORCEDORES É DE x ANOS’

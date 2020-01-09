@@ -1,0 +1,7 @@
+# FACA UM PROGRAMA QUE LEIA O SEXO DE UMA PESSOA, MAS SÓ ACEITE OS VALORES M OU F. CASO ESTEJA ERRADO, PEÇA A DIGITAÇÃO
+# NOVAMENTE ATÉ TER UM VALOR CORRETO.
+
+sexo = str(input('Digite o seu sexo [S/M]: '))
+while sexo not in 'MF':
+    print('Dados invalidos. Por favor informe o seu sexo: ').strip().upper()
+print('Sexo {} registrado com sucesso.'.format(sexo))

@@ -1,0 +1,35 @@
+# Laços de Repetiçoes
+
+# Contando de 0 ate 6 usando o for
+# for c in range(0, 6):
+#    print('oi')
+# print('fim')
+
+# Contando de 6 ate 0
+# for c in range(6, 0, -1):
+#    print(c)
+# print('fim')
+
+# contand de 0 ate 7 de 2 em 2
+# for c in range(0, 7, 2):
+#    print(c)
+# print('fim')
+
+# contando de 0 ate onde o usuario quiser
+# n = int(input('Digite um numero: '))
+# for c in range(0, n+1):
+#    print(c)
+# print('fim')
+
+# contando de onde o usuario quiser ate onde vai e qual vai ser o salto da contagem.
+# i = int(input('Inicio: '))
+# f = int(input('Fim: '))
+# p = int(int('Passo: '))
+
+# contando de 0 ate 10 ou mais.
+s = 0
+for c in range(0, 4):
+    num = int(input('Digite um valor: '))
+    s = s + num
+print('A soma dos valores digitados foi: {}'.format(s))
+print('Fim')

@@ -1,0 +1,20 @@
+# CRIE UM PROGRAMA QUE LEIA UMA FRASE QUALQUER E DIGA SE ELA É UM PALINDROMO, DESCONSIDERANDO OS ESPAÇOS.
+# PALINDROMO = É A FRASE QUE PODEMOS LER DE FRENTE PARA TRAS E DE TRAS PARA FRENTE E QUE TENHA O MESMO SIGNIFICADO.
+# EX:
+# APOS A SOPA
+# A SACADA DA CASA
+# A TORRE DA DERROTA
+# O LOBO AMA O BOLO
+# ANOTARAM A DATA DA MARATONA
+
+frase = str(input('Digite uma frase: ')).strip().upper() #strip() = eliminar os espaços antes e depois. Upper() colocando tudo em maiuscula
+palavras = frase.split() #Esplitamos a frase, para que ele gere uma lista. Colocamos em um VETOR.
+junto = ''.join(palavras) #Juntamos essa lista para eliminar os espaços. Para formarmos uma unica string.
+inverso = ''
+for letra in range(len(junto)-1, -1, -1): #Inverso trocando uma letra ate a ultima letra
+    inverso += junto[letra]
+print('O inverso de {} é {}'.format(junto, inverso))
+if inverso == junto: #Testamos para ver se a variavel INVERSO é a mesma coissa do da variavel JUNTO
+    print('Temos um palindromo!')
+else:
+    print('A frase digitada não é um palindromo!')

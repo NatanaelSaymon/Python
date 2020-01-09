@@ -1,0 +1,6 @@
+nome= str(input('Qual o seu nome? '))
+idade= int(input('Qual a sua idade? '))
+peso= float(input('Qual o seu peso? '))
+print('Seu nome é: ',nome)
+print('Sua idade é: ',idade)
+print('Seu peso é: ',peso)

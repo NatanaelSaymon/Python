@@ -1,0 +1,4 @@
+Como importar o ano atual do pc para o python:
+
+from datetime import date <- Importação 
+atual = date.today().year <- variavel

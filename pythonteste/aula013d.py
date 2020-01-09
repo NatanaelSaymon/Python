@@ -1,0 +1,9 @@
+# Fazendo o programa contar de onde o usuario quiser, e colocando um passo(pulo).
+
+i = int(input('Inicio: '))
+f = int(input('Fim: '))
+p = int(input('Pulando de: '))
+
+for c in range(i, f+1, p):
+    print(c)
+print('FIM!')

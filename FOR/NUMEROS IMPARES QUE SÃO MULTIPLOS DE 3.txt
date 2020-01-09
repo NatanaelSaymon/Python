@@ -1,0 +1,12 @@
+# FACA UM PROGRAMA QUE CALCULE A SOMA ENTRE TODOS OS NUMEROS IMPARES QUE SÃO MULTIPLOS DE 3 E QUE SE ENCONTRAM NO INTERVALOR DE 1 ATE 500.
+
+# OBSERVAÇÃO (TEM QUE USAR O CONCEITO DE ACUMULADOR)
+# OSERVAÇÃO (CASO QUERIA USAR UM CONTADOR, O CONTADOR SEMPRE RECEBE +1)
+
+s = 0 #ACUMULADOR SEMPRE RECEBE ZERO NO INICIO
+cont = 0 #CONTADOR SEMPRE RECEBE ZERO NO INICIO
+for c in range(1, 501, 2):
+    if c % 3 == 0:
+        s += c
+        cont += 1 #Cada vez em que o cont achar uma condiçao (cont = cont + 1)
+print('A soma de todos os {} numeros solicitados foi: {}'.format(cont, s))
